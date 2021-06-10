@@ -25,6 +25,7 @@ public class TestController {
 	 */
 	public Integer changeValue(Integer id){
 		System.out.println("双倍奉还");
+		System.out.println("hello github");
 		return id * id;
 	}
 
@@ -34,4 +35,5 @@ public class TestController {
 	public void test(){
 		System.out.println("hello world");
 	}
+
 }
