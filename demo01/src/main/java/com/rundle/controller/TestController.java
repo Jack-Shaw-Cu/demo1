@@ -14,6 +14,16 @@ public class TestController {
 
 	@GetMapping("/get/{id}")
 	public Integer test(@PathVariable Integer id){
-		return id;
+		return changeValue(id);
+	}
+
+	/**
+	 * id翻倍
+	 *
+	 * @param id
+	 * @return
+	 */
+	public Integer changeValue(Integer id){
+		return id * id;
 	}
 }
