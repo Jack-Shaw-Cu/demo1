@@ -26,4 +26,11 @@ public class TestController {
 	public Integer changeValue(Integer id){
 		return id * id;
 	}
+
+	/**
+	 * 测试方法
+	 */
+	public void test(){
+		System.out.println("hello world");
+	}
 }
