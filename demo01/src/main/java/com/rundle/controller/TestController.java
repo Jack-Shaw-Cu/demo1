@@ -16,4 +16,11 @@ public class TestController {
 	public Integer test(@PathVariable Integer id){
 		return id;
 	}
+
+	/**
+	 * 测试方法
+	 */
+	public void test(){
+		System.out.println("hello world");
+	}
 }
