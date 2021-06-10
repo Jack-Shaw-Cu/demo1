@@ -24,6 +24,7 @@ public class TestController {
 	 * @return
 	 */
 	public Integer changeValue(Integer id){
+		System.out.println("双倍奉还");
 		return id * id;
 	}
 
