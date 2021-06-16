@@ -14,6 +14,7 @@ public class TestController {
 
 	@GetMapping("/get/{id}")
 	public Integer test(@PathVariable Integer id){
+		System.out.println("hello world");
 		System.out.println(id + "-----------");
 		return changeValue(id);
 	}
